@@ -1,22 +1,24 @@
 ---
 layout: default
-title: "Graph Condensation: Foundations, Methods and Prospects"
-description: "WWW 2025 Tutorial"
+title: "LLM-UP: LLM-powered User Profiling for Search and Recommendation"
+description: "SIGIR 2026 Workshop"
 authors:
   - name: "Hongzhi Yin"
     affiliation: "The University of Queensland, Brisbane, Australia"
-  - name: "Xinyi Gao"
+  - name: "Wei Yuan"
     affiliation: "The University of Queensland, Brisbane, Australia"
-  - name: "Junliang Yu"
-    affiliation: "The University of Queensland, Brisbane, Australia"
-  - name: "Ruihong Qiu"
-    affiliation: "The University of Queensland, Brisbane, Australia"
-  - name: "Tong Chen"
+  - name: "Yi Zhang"
+    affiliation: "Anhui University, Hefei, China"
+  - name: "Joel Mackenzie"
     affiliation: "The University of Queensland, Brisbane, Australia"
   - name: "Quoc Viet Hung Nguyen"
     affiliation: "Griffith University, Gold Coast, Australia"
-  - name: "Zi Huang"
-    affiliation: "The University of Queensland, Brisbane, Australia"
+  - name: "Wayne Xin Zhao"
+    affiliation: "Gaoling School of Artificial Intelligence, Renmin University of China, Beijing, China"
+  - name: "Yong Li"
+    affiliation: "Department of Electronic Engineering, Tsinghua University, Beijing, China"
+  - name: "Lina Yao"
+    affiliation: "University of New South Wales, Sydney, Australia"
 ---
 
 
@@ -27,23 +29,19 @@ authors:
   }
 </style>
 
-## Session Schedule
+## Time Schedule
+TBA
 
-**Time**: 09:00 – 10:30 (AEST, UTC+10)
-
-**Date**: Monday, April 28, 2025
-
-**Room**: C3.5
-
-**Venue**: ICC Sydney – International Convention & Exhibition Centre
 
 <hr style="border-top: 1px solid #eee; margin: 40px 0 20px 0;">
 
 ## Introduction
 
 <div style="text-align: justify;">
-Graph data is extensively utilized across various domains, owing to its capacity to represent complex structural relationships among diverse real-world entities. However, the rapid expansion of graph data introduces significant challenges in terms of storage, transmission, and the training of graph neural networks (GNNs) for effective graph data analysis. In light of these challenges, graph condensation (GC) has emerged as a data-centric solution, synthesizing a compact yet representative graph to replace the original large graph in GNN training. These GNNs trained on condensed graphs can achieve performance comparable to models trained on full-scale data, attracting substantial attention and stimulating extensive research.
-In response to this trend, this tutorial provides a comprehensive and up-to-date overview of GC research. It systematically categorizes existing studies into five categories aligned with critical GC evaluation criteria: effectiveness, generalization, efficiency, fairness, and robustness. Additionally, we will provide an in-depth analysis of two fundamental components of GC: optimization strategies and condensed graph generation, elucidating their key characteristics and underlying technologies. Finally, this tutorial will explore GC applications across various fields and outline potential directions for future research in this rapidly evolving and impactful domain.
+The rapid advancement of large language models (LLMs) has opened new possibilities for understanding users in search and recommendation. While traditional behavior-based or feature-driven user models rely primarily on explicit interactions or handcrafted representations, LLMs introduce a fundamentally different paradigm: LLM-powered user profiling, where user preferences, intents, and contextual attributes can be extracted, summarized, or reasoned about directly through natural language. 
+  This shift unlocks powerful new paths to achieve personalization but also raises pressing questions related to modeling fidelity, temporal dynamics, evaluation methodology, privacy, and responsible deployment. 
+  The LLM-UP workshop aims to bring together researchers and practitioners to systematize emerging progress in LLM-powered user profiling, identify open challenges, and explore opportunities for integrating such techniques into search and recommendation pipelines. 
+  The LLM-UP workshop adopts an interactive structure featuring lightning talks, panel discussions, and paper presentations to foster active engagement, cross-disciplinary dialogue, and community-driven agenda setting for this rapidly evolving field.
 </div>
 
 
