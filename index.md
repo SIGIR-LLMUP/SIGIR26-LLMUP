@@ -125,43 +125,75 @@ The main focus for the workshop is to provide a venue for researchers and practi
 
 <hr style="border-top: 1px solid #eee; margin: 40px 0 20px 0;">
 
-## Our Papers on Graph Condensation
+[//]: # (## Our Papers on Graph Condensation)
 
-<ul style="list-style: none; padding-left: 0; font-size: smaller;">
-    <li style="margin-bottom: 5px;">
-        <strong><a href="https://arxiv.org/abs/2401.11720v2">Graph Condensation: A Survey</a></strong> 
-        <a href="https://github.com/XYGaoG/Graph-Condensation-Papers">📖</a><br>
-        <em>Transactions on Knowledge and Data Engineering (TKDE), 2025</em><br>
-        Xinyi Gao, Junliang Yu, Tong Chen, Guanhua Ye, Wentao Zhang, Hongzhi Yin
-    </li>
+[//]: # ()
+[//]: # (<ul style="list-style: none; padding-left: 0; font-size: smaller;">)
 
-    <li style="margin-bottom: 5px;">
-        <strong><a href="https://arxiv.org/abs/2405.13707">Rethinking and Accelerating Graph Condensation: A Training-Free Approach with Class Partition</a></strong><br>
-        <em>ACM Web Conference (WWW), 2025</em><br>
-        Xinyi Gao, Guanhua Ye, Tong Chen, Wentao Zhang, Junliang Yu, Hongzhi Yin
-    </li>
+[//]: # (    <li style="margin-bottom: 5px;">)
 
-    <li style="margin-bottom: 5px;">
-        <strong><a href="https://arxiv.org/abs/2405.17003">Graph Condensation for Open-World Graph Learning</a></strong><br>
-        <em>ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD), 2024</em><br>
-        Xinyi Gao, Tong Chen, Wentao Zhang, Yayong Li, Xiangguo Sun, Hongzhi Yin
-    </li>
+[//]: # (        <strong><a href="https://arxiv.org/abs/2401.11720v2">Graph Condensation: A Survey</a></strong> )
 
-    <li style="margin-bottom: 5px;">
-        <strong><a href="https://arxiv.org/abs/2307.15967">Graph Condensation for Inductive Node Representation Learning</a></strong><br>
-        <em>IEEE International Conference on Data Engineering (ICDE), 2024</em><br>
-        Xinyi Gao, Tong Chen, Yilong Zang, Wentao Zhang, Quoc Viet Hung Nguyen, Kai Zheng, Hongzhi Yin
-    </li>
+[//]: # (        <a href="https://github.com/XYGaoG/Graph-Condensation-Papers">📖</a><br>)
 
-    <li style="margin-bottom: 5px;">
-        <strong><a href="https://arxiv.org/abs/2412.16250">Training-free Heterogeneous Graph Condensation via Data Selection</a></strong><br>
-        <em>IEEE International Conference on Data Engineering (ICDE), 2025</em><br>
-        Yuxuan Liang, Wentao Zhang, Xinyi Gao, Ling Yang, Chong Chen, Hongzhi Yin, Yunhai Tong, Bin Cui
-    </li>
+[//]: # (        <em>Transactions on Knowledge and Data Engineering &#40;TKDE&#41;, 2025</em><br>)
 
-    <li style="margin-bottom: 5px;">
-        <strong><a href="https://arxiv.org/abs/2406.13200">RobGC: Towards Robust Graph Condensation</a></strong><br>
-        Xinyi Gao, Hongzhi Yin, Tong Chen, Guanhua Ye, Wentao Zhang, Bin Cui
-    </li>
-</ul>
+[//]: # (        Xinyi Gao, Junliang Yu, Tong Chen, Guanhua Ye, Wentao Zhang, Hongzhi Yin)
+
+[//]: # (    </li>)
+
+[//]: # ()
+[//]: # (    <li style="margin-bottom: 5px;">)
+
+[//]: # (        <strong><a href="https://arxiv.org/abs/2405.13707">Rethinking and Accelerating Graph Condensation: A Training-Free Approach with Class Partition</a></strong><br>)
+
+[//]: # (        <em>ACM Web Conference &#40;WWW&#41;, 2025</em><br>)
+
+[//]: # (        Xinyi Gao, Guanhua Ye, Tong Chen, Wentao Zhang, Junliang Yu, Hongzhi Yin)
+
+[//]: # (    </li>)
+
+[//]: # ()
+[//]: # (    <li style="margin-bottom: 5px;">)
+
+[//]: # (        <strong><a href="https://arxiv.org/abs/2405.17003">Graph Condensation for Open-World Graph Learning</a></strong><br>)
+
+[//]: # (        <em>ACM SIGKDD Conference on Knowledge Discovery and Data Mining &#40;SIGKDD&#41;, 2024</em><br>)
+
+[//]: # (        Xinyi Gao, Tong Chen, Wentao Zhang, Yayong Li, Xiangguo Sun, Hongzhi Yin)
+
+[//]: # (    </li>)
+
+[//]: # ()
+[//]: # (    <li style="margin-bottom: 5px;">)
+
+[//]: # (        <strong><a href="https://arxiv.org/abs/2307.15967">Graph Condensation for Inductive Node Representation Learning</a></strong><br>)
+
+[//]: # (        <em>IEEE International Conference on Data Engineering &#40;ICDE&#41;, 2024</em><br>)
+
+[//]: # (        Xinyi Gao, Tong Chen, Yilong Zang, Wentao Zhang, Quoc Viet Hung Nguyen, Kai Zheng, Hongzhi Yin)
+
+[//]: # (    </li>)
+
+[//]: # ()
+[//]: # (    <li style="margin-bottom: 5px;">)
+
+[//]: # (        <strong><a href="https://arxiv.org/abs/2412.16250">Training-free Heterogeneous Graph Condensation via Data Selection</a></strong><br>)
+
+[//]: # (        <em>IEEE International Conference on Data Engineering &#40;ICDE&#41;, 2025</em><br>)
+
+[//]: # (        Yuxuan Liang, Wentao Zhang, Xinyi Gao, Ling Yang, Chong Chen, Hongzhi Yin, Yunhai Tong, Bin Cui)
+
+[//]: # (    </li>)
+
+[//]: # ()
+[//]: # (    <li style="margin-bottom: 5px;">)
+
+[//]: # (        <strong><a href="https://arxiv.org/abs/2406.13200">RobGC: Towards Robust Graph Condensation</a></strong><br>)
+
+[//]: # (        Xinyi Gao, Hongzhi Yin, Tong Chen, Guanhua Ye, Wentao Zhang, Bin Cui)
+
+[//]: # (    </li>)
+
+[//]: # (</ul>)
 
