@@ -93,29 +93,32 @@ The main focus for the workshop is to provide a venue for researchers and practi
 <hr style="border-top: 1px solid #eee; margin: 40px 0 20px 0;">
 
 
-## Presenter
+## Organisers
 
 <div style="text-align: justify;">
 <ul style="list-style-type: disc; padding-left: 20px;">
 
-<li><strong>Prof. Hongzhi Yin</strong> works as an ARC Future Fellow, Full Professor, and Director of the Responsible Big Data Intelligence Lab (RBDI) at The University of Queensland, Australia. He has published 300+ papers with an H-index of 78, making notable contributions to recommendation systems, graph learning, decentralized learning, and edge intelligence. His research has won 8 international and national Best Paper Awards, including Best Paper Award (Honorable Mention) at WSDM 2023, Best Paper Award at ICDE 2019, and Best Student Paper Award at DASFAA 2020.</li>
+<li><strong>Prof. Hongzhi Yin</strong>, full Professor and ARC Future Fellow at the University of Queensland.</li>
 
 <br>
-<li><strong>Mr. Xinyi Gao</strong> is currently pursuing his Ph.D. at The University of Queensland. He received his B.S. and M.S. degrees in Information and Communications Engineering from Xi’an Jiaotong University. His research work has been published on top data mining venues such as KDD, ICDE, WWW, and TKDE. His research interest primarily lies in the efficient and robust graph representation learning, such as graph condensation and imbalanced graph learning.</li>
+<li><strong>Dr. Wei Yuan</strong>, postdoc at The University of Queensland. </li>
 <br>
-<li><strong>Dr. Junliang Yu</strong> is an ARC DECRA Fellow at the University of Queensland. His research interests include recommender systems, data-centric AI, and graph learning. With over 30 papers published in premier venues such as KDD, WWW, ICDM, CIKM, AAAI, SIGIR, WSDM, TKDE, and VLDB Journal, he is a recognized contributor in his field.</li>
+<li><strong>Mr. Yi Zhang</strong>, PhD student at Anhui University.</li>
 
 <br>
-<li><strong>Dr. Ruihong Qiu</strong> is currently a Lecturer at The University of Queensland. He was awarded 2025 Discovery Early Career Researcher Award (DECRA) from the Australian Research Council (ARC). He received his PhD degree in Computer Science at The University of Queensland in 2022. His research mainly focuses on recommender systems, graph neural networks, and data science for cross-disciplinary projects, with publications on top-tier venues such as SIGIR, ICDM, WSDM, CIKM, TKDE, TOIS etc.</li>
+<li><strong>Dr. Joel Mackenzie</strong>, senior lecturer and DECRA Fellow at The University of Queensland.</li>
 
 <br>
-<li><strong>Dr. Tong Chen</strong> is a Senior Lecturer at The University of Queensland, and an awardee of the 2023 Discovery Early Career Researcher Award (DECRA) from the Australian Research Council (ARC). Dr. Chen’s research on lightweight, on-device, and trustworthy recommender systems has been published on top-tier international venues such as KDD, SIGIR, WWW, TKDE, WSDM, TNNLS, TOIS, and CIKM. </li>
+<li><strong>Prof. Quoc Viet Hung Nguyen</strong>, associate Professor at Griffith University.</li>
 
 <br>
-<li><strong>A/Prof. Quoc Viet Hung Nguyen</strong> is an Associate Professor and an ARC DECRA Fellow in Griffith University. He earned his Master and PhD degrees from EPFL (Switzerland). His research focuses on Data Integration, Data Quality, Recommender Systems, and Big Data Visualization, with special emphasis on web data, social data, IoT data and satellite data. He has published 180+ papers in top-tier conferences (e.g., SIGMOD, VLDB, ICDE, NeurIPS, KDD, SIGIR, WWW, etc.) and high impact journals (e.g., TPAMI, VLDBJ, TKDE, TOIS, etc.). He has served as senior PC for several A* conferences such as AAAI, IJCAI, TheWebConf, CIKM, ICONIP, etc.</li>
+<li><strong>Prof. Wayne Xin Zhao</strong>, full professor at Renmin University of China.</li>
 
 <br>
-<li><strong>Prof. Zi Huang</strong> is a Professor and the Discipline Leader for Data Science in the School of EECS at The University of Queensland. She received her BSc degree from Department of Computer Science, Tsinghua University, China, and her PhD in Computer Science from School of EECS, The University of Queensland in 2001 and 2007 respectively. Her research interests mainly include multimedia, computer vision, social data analysis and knowledge discovery. She has been an Associate Editor of the VLDB Journal, ACM Transactions on Information Systems, IEEE Transactions on Circuits and Systems for Video Technology, IEEE Transactions on Multimedia, and Pattern Recognition Journal. She has also served as a PC Co-Chair of ACM The Web Conference'25, ACM ICMR'23, and ACM CIKM'21.</li>
+<li><strong>Prof. Yong Li</strong>, full professor at Tsinghua University.</li>
+
+<br>
+<li><strong>Prof. Lina Yao</strong>, full professor at UNSW.</li>
 
 </ul>
 </div>
