@@ -2,23 +2,40 @@
 layout: default
 title: "LLM-UP: LLM-powered User Profiling for Search and Recommendation"
 description: "SIGIR 2026 Workshop"
-authors:
-  - name: "Hongzhi Yin"
-    affiliation: "The University of Queensland, Brisbane, Australia"
-  - name: "Wei Yuan"
-    affiliation: "The University of Queensland, Brisbane, Australia"
-  - name: "Yi Zhang"
-    affiliation: "Anhui University, Hefei, China"
-  - name: "Joel Mackenzie"
-    affiliation: "The University of Queensland, Brisbane, Australia"
-  - name: "Quoc Viet Hung Nguyen"
-    affiliation: "Griffith University, Gold Coast, Australia"
-  - name: "Wayne Xin Zhao"
-    affiliation: "Gaoling School of Artificial Intelligence, Renmin University of China, Beijing, China"
-  - name: "Yong Li"
-    affiliation: "Department of Electronic Engineering, Tsinghua University, Beijing, China"
-  - name: "Lina Yao"
-    affiliation: "University of New South Wales, Sydney, Australia"
+
+[//]: # (authors:)
+
+[//]: # (  - name: "Hongzhi Yin")
+
+[//]: # (    affiliation: "The University of Queensland, Brisbane, Australia")
+
+[//]: # (  - name: "Wei Yuan")
+
+[//]: # (    affiliation: "The University of Queensland, Brisbane, Australia")
+
+[//]: # (  - name: "Yi Zhang")
+
+[//]: # (    affiliation: "Anhui University, Hefei, China")
+
+[//]: # (  - name: "Joel Mackenzie")
+
+[//]: # (    affiliation: "The University of Queensland, Brisbane, Australia")
+
+[//]: # (  - name: "Quoc Viet Hung Nguyen")
+
+[//]: # (    affiliation: "Griffith University, Gold Coast, Australia")
+
+[//]: # (  - name: "Wayne Xin Zhao")
+
+[//]: # (    affiliation: "Gaoling School of Artificial Intelligence, Renmin University of China, Beijing, China")
+
+[//]: # (  - name: "Yong Li")
+
+[//]: # (    affiliation: "Department of Electronic Engineering, Tsinghua University, Beijing, China")
+
+[//]: # (  - name: "Lina Yao")
+
+[//]: # (    affiliation: "University of New South Wales, Sydney, Australia")
 ---
 
 
