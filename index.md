@@ -31,6 +31,7 @@ authors:
 
 ## Time Schedule
 **Workshop Date**: TBA (During SIGIR 2026)
+
 **Venue**: TBA
 
 <hr style="border-top: 1px solid #eee; margin: 40px 0 20px 0;">
