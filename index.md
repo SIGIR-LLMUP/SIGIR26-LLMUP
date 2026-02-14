@@ -30,8 +30,8 @@ authors:
 </style>
 
 ## Time Schedule
-TBA
-
+**Workshop Date**: TBA (During SIGIR 2026)
+**Venue**: TBA
 
 <hr style="border-top: 1px solid #eee; margin: 40px 0 20px 0;">
 
@@ -44,40 +44,32 @@ The rapid advancement of large language models (LLMs) has opened new possibiliti
   The LLM-UP workshop adopts an interactive structure featuring lightning talks, panel discussions, and paper presentations to foster active engagement, cross-disciplinary dialogue, and community-driven agenda setting for this rapidly evolving field.
 </div>
 
+[//]: # (<p align="center">)
 
-<p align="center">
-<img src="main.jpg" alt="GC" width="750">
-</p>
+[//]: # (<img src="main.jpg" alt="GC" width="750">)
+
+[//]: # (</p>)
 
 <hr style="border-top: 1px solid #eee; margin: 40px 0 20px 0;">
 
 
-## Outline
+## Program
 
-This is a lecture-style tutorial that includes:
+The main focus for the workshop is to provide a venue for researchers and practitioners to get together to exchange ideas and do some consolidation on the emerging progress in LLM-powered user profiling:
+(The exact time schedule for each part will be announced soon.)
 
-**Section 1: Welcome and Introduction (10 mins)**
-  - Overview of Graph Representation Learning
-  - Background of Graph Condensation
+**Section 1:  Welcome and Opening Remarks (30 mins)**
 
-**Section 2: Definition and Taxonomy of GC (20 mins)**
-  - Definition of Graph Condensation
-  - Categorization of Existing GC Methods
+**Section 2:  Invited Keynote 1 & 2 (90 mins)**
+  - We will invite two world-renowned experts to give talks and insights about LLM and recommender systems.
 
-**Section 3: A Review of GC Methods (90 mins)**
-  - Optimization Strategies
-  - GC Methods
-  - Condensed Graph Generation
+**Section 3: Paper Encore (60 mins)**
+  - We will invite authors whose topic-related papers have been accepted to the main conference of SIGIR 2026 to share insights on LLM-powered user profiling. Unlike their formal presentations at the main conference, these talks will focus on interesting phenomena observed in their studies, as well as practical lessons learned and best practices derived from their experiments and real-world applications. 
     
-**Section 4: GC Toolkit: GCondenser (20 mins)**
-  - The Framework of GCondenser
-  - Characteristics of GCondenser
+**Section 4: Panel Discussion (45 mins)**
+  - The interactive panel discussion will provide young scholars with valuable opportunities to engage directly with senior researchers and practitioners, ask questions, and gain deeper insights into emerging challenges and future directions in the field. 
 
-**Section 5: Applications and New Trends (20 mins)**
-  - Applications for Existing GC Methods
-  - Emerging Research Directions
-    
-**Section 6: Conclusion and Open Discussions (20 mins)**
+**Section 5: Wrap-up and Closing Remarks (10 mins)**
 
 
 <hr style="border-top: 1px solid #eee; margin: 40px 0 20px 0;">
