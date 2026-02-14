@@ -98,7 +98,7 @@ The main focus for the workshop is to provide a venue for researchers and practi
 <div style="text-align: justify;">
 <ul style="list-style-type: disc; padding-left: 20px;">
 
-<li><strong>Prof. Hongzhi Yin</strong>, full Professor and ARC Future Fellow at the University of Queensland.</li>
+<li><strong>Prof. Hongzhi Yin</strong>, full professor and ARC Future Fellow at the University of Queensland.</li>
 
 <br>
 <li><strong>Dr. Wei Yuan</strong>, postdoc at The University of Queensland. </li>
