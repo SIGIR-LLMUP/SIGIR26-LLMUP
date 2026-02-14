@@ -46,12 +46,6 @@ description: "SIGIR 2026 Workshop"
   }
 </style>
 
-## Time Schedule
-**Workshop Date**: TBA (During SIGIR 2026)
-
-**Venue**: TBA
-
-<hr style="border-top: 1px solid #eee; margin: 40px 0 20px 0;">
 
 ## Introduction
 
@@ -67,6 +61,13 @@ The rapid advancement of large language models (LLMs) has opened new possibiliti
 [//]: # (<img src="main.jpg" alt="GC" width="750">)
 
 [//]: # (</p>)
+
+<hr style="border-top: 1px solid #eee; margin: 40px 0 20px 0;">
+
+## Time Schedule
+**Workshop Date**: TBA (During SIGIR 2026)
+
+**Venue**: TBA
 
 <hr style="border-top: 1px solid #eee; margin: 40px 0 20px 0;">
 
