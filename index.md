@@ -94,7 +94,7 @@ The main focus for the workshop is to provide a venue for researchers and practi
 <hr style="border-top: 1px solid #eee; margin: 40px 0 20px 0;">
 
 
-## Organisers
+## Workshop Chairs
 
 <div style="text-align: justify;">
 <ul style="list-style-type: disc; padding-left: 20px;">
