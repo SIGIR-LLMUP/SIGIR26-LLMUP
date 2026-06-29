@@ -223,7 +223,7 @@ The main focus of the workshop is to provide a venue for researchers and practit
     <div class="talk-label">Invited Keynote 2 · 45 mins</div>
     <h3>Invited Keynote 2</h3>
     <p class="speaker-name">Prof. Tong (Rocky) Chen</p>
-    <p class="affiliation">Affiliation TBA</p>
+    <p class="affiliation">The University of Queensland</p>
 
 
 <p><strong>Abstract:</strong> TBA.</p>
