@@ -86,7 +86,9 @@ The main focus for the workshop is to provide a venue for researchers and practi
 
 **Section 2.2: Invited Keynote 2 by Prof. Tong (Rocky) Chen (45 mins)**
 
-**Section 2.3: Invited Keynote 3 by Dr. Andrew Drozdov (45 mins)**
+**Section 2.3: Invited Keynote 3: Training Adaptive Search Agents for Dynamic Environments by Dr. Andrew Drozdov (45 mins)**
+  - **Abstract**: This talk covers three directions toward adaptive search agents: using reinforcement learning to train large agents for slow, deliberative search, using reinforcement learning to train smaller models for fast search with parallel test-time compute, and evaluating agents in dynamic environments where questions and their answers change over time. The broader goal is to ask what the future of search should look like from both system design and evaluation perspectives, as search evolves from retrieving static results to powering interactive systems that increasingly rely on richer representations of fresh information, user context, and personalized information needs.
+  - **Bio**: Andrew Drozdov is a Senior Research Scientist at Databricks, where he works on language-model-powered search, ranking, and grounded reasoning for knowledge-intensive tasks. His research spans information retrieval, efficient and scalable AI, and reinforcement learning, with a focus on modern search systems for both humans and agents. He received his PhD from the University of Massachusetts Amherst and his Master’s degree from New York University.
 
 **Section 3: Discussion with SIGIR'26 Authors (40 mins)**
 
