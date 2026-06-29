@@ -1,204 +1,314 @@
 ---
+
 layout: default
 title: "LLM-UP: LLM-powered User Profiling for Search and Recommendation"
 description: "SIGIR 2026 Workshop"
 
-[//]: # (authors:)
+[//]: # "authors:"
+[//]: # "  - name: \"Hongzhi Yin\""
+[//]: # "    affiliation: \"The University of Queensland, Brisbane, Australia\""
+[//]: # "  - name: \"Wei Yuan\""
+[//]: # "    affiliation: \"The University of Queensland, Brisbane, Australia\""
+[//]: # "  - name: \"Yi Zhang\""
+[//]: # "    affiliation: \"Anhui University, Hefei, China\""
+[//]: # "  - name: \"Joel Mackenzie\""
+[//]: # "    affiliation: \"The University of Queensland, Brisbane, Australia\""
+[//]: # "  - name: \"Quoc Viet Hung Nguyen\""
+[//]: # "    affiliation: \"Griffith University, Gold Coast, Australia\""
+[//]: # "  - name: \"Wayne Xin Zhao\""
+[//]: # "    affiliation: \"Gaoling School of Artificial Intelligence, Renmin University of China, Beijing, China\""
+[//]: # "  - name: \"Yong Li\""
+[//]: # "    affiliation: \"Department of Electronic Engineering, Tsinghua University, Beijing, China\""
+[//]: # "  - name: \"Lina Yao\""
+[//]: # "    affiliation: \"University of New South Wales, Sydney, Australia\""
 
-[//]: # (  - name: "Hongzhi Yin")
-
-[//]: # (    affiliation: "The University of Queensland, Brisbane, Australia")
-
-[//]: # (  - name: "Wei Yuan")
-
-[//]: # (    affiliation: "The University of Queensland, Brisbane, Australia")
-
-[//]: # (  - name: "Yi Zhang")
-
-[//]: # (    affiliation: "Anhui University, Hefei, China")
-
-[//]: # (  - name: "Joel Mackenzie")
-
-[//]: # (    affiliation: "The University of Queensland, Brisbane, Australia")
-
-[//]: # (  - name: "Quoc Viet Hung Nguyen")
-
-[//]: # (    affiliation: "Griffith University, Gold Coast, Australia")
-
-[//]: # (  - name: "Wayne Xin Zhao")
-
-[//]: # (    affiliation: "Gaoling School of Artificial Intelligence, Renmin University of China, Beijing, China")
-
-[//]: # (  - name: "Yong Li")
-
-[//]: # (    affiliation: "Department of Electronic Engineering, Tsinghua University, Beijing, China")
-
-[//]: # (  - name: "Lina Yao")
-
-[//]: # (    affiliation: "University of New South Wales, Sydney, Australia")
 ---
-
-
 
 <style>
   body {
-    font-size: 12px; /* 根据需要调整字体大小 */
+    font-size: 15px;
+    line-height: 1.65;
+  }
+
+  .intro-text {
+    text-align: justify;
+  }
+
+  .section-divider {
+    border-top: 1px solid #eee;
+    margin: 40px 0 20px 0;
+  }
+
+  .program-note {
+    margin-bottom: 24px;
+    color: #555;
+    text-align: justify;
+  }
+
+  .program-item {
+    padding: 18px 22px;
+    margin: 18px 0;
+    border-left: 4px solid #2f6f9f;
+    background: #f8fafc;
+    border-radius: 10px;
+  }
+
+  .program-item h3 {
+    margin: 0 0 6px 0;
+    font-size: 1.1rem;
+  }
+
+  .program-meta {
+    color: #666;
+    font-size: 0.92rem;
+    font-weight: 600;
+  }
+
+  .speaker-card {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    padding: 24px;
+    margin: 24px 0;
+    border: 1px solid #e6e6e6;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+  }
+
+  .speaker-photo {
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 3px solid #f2f2f2;
+    background: #f5f5f5;
+  }
+
+  .speaker-info h3 {
+    margin: 6px 0 8px;
+    font-size: 1.25rem;
+    line-height: 1.35;
+  }
+
+  .talk-label {
+    font-size: 0.82rem;
+    color: #666;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .speaker-name {
+    font-weight: 700;
+    margin: 4px 0;
+  }
+
+  .affiliation {
+    color: #666;
+    margin-top: 0;
+    margin-bottom: 14px;
+  }
+
+  .speaker-info p {
+    margin-bottom: 10px;
+    text-align: justify;
+  }
+
+  .chairs-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: justify;
+  }
+
+  .chairs-list li {
+    margin-bottom: 12px;
+  }
+
+  @media (max-width: 700px) {
+    .speaker-card {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .speaker-info p {
+      text-align: left;
+    }
+
+    .speaker-photo {
+      width: 96px;
+      height: 96px;
+    }
   }
 </style>
 
-
 ## Introduction
 
-<div style="text-align: justify;">
+<div class="intro-text">
 The rapid advancement of large language models (LLMs) has opened new possibilities for understanding users in search and recommendation. While traditional behavior-based or feature-driven user models rely primarily on explicit interactions or handcrafted representations, LLMs introduce a fundamentally different paradigm: LLM-powered user profiling, where user preferences, intents, and contextual attributes can be extracted, summarized, or reasoned about directly through natural language. 
-  This shift unlocks powerful new paths to achieve personalization but also raises pressing questions related to modeling fidelity, temporal dynamics, evaluation methodology, privacy, and responsible deployment. 
-  The LLM-UP workshop aims to bring together researchers and practitioners to systematize emerging progress in LLM-powered user profiling, identify open challenges, and explore opportunities for integrating such techniques into search and recommendation pipelines. 
-  The LLM-UP workshop adopts an interactive structure featuring lightning talks, panel discussions, and paper presentations to foster active engagement, cross-disciplinary dialogue, and community-driven agenda setting for this rapidly evolving field.
+This shift unlocks powerful new paths to achieve personalization but also raises pressing questions related to modeling fidelity, temporal dynamics, evaluation methodology, privacy, and responsible deployment. 
+The LLM-UP workshop aims to bring together researchers and practitioners to systematize emerging progress in LLM-powered user profiling, identify open challenges, and explore opportunities for integrating such techniques into search and recommendation pipelines. 
+The LLM-UP workshop adopts an interactive structure featuring lightning talks, panel discussions, and paper presentations to foster active engagement, cross-disciplinary dialogue, and community-driven agenda setting for this rapidly evolving field.
 </div>
 
-[//]: # (<p align="center">)
+[//]: # "<p align=\"center\">"
+[//]: # "<img src=\"main.jpg\" alt=\"GC\" width=\"750\">"
+[//]: # "</p>"
 
-[//]: # (<img src="main.jpg" alt="GC" width="750">)
-
-[//]: # (</p>)
-
-<hr style="border-top: 1px solid #eee; margin: 40px 0 20px 0;">
+<hr class="section-divider">
 
 ## Time Schedule
+
 **Workshop Date**: Friday 24 July 2026
 
 **Venue**: TBA
 
-<hr style="border-top: 1px solid #eee; margin: 40px 0 20px 0;">
-
+<hr class="section-divider">
 
 ## Program
 
-The main focus for the workshop is to provide a venue for researchers and practitioners to get together to exchange ideas and do some consolidation on the emerging progress in LLM-powered user profiling:
-(The exact time schedule for each part will be announced soon.)
+<div class="program-note">
+The main focus of the workshop is to provide a venue for researchers and practitioners to exchange ideas and consolidate emerging progress in LLM-powered user profiling.
+<br>
+<strong>The exact time schedule for each part will be announced soon.</strong>
+</div>
 
-**Section 1:  Welcome and Opening Remarks (30 mins)**
+<div class="program-item">
+  <h3>Section 1: Welcome and Opening Remarks</h3>
+  <div class="program-meta">30 mins</div>
+</div>
 
-**Section 2: Invited Keynote**  
-**Section 2.1:  Invited Keynote 1: Generative retrieval: from search to recommendation by Prof. Zhaochun Ren (45 mins)**
-  - **Abstract**: Generative retrieval is reshaping search and recommendation by embedding corpus knowledge directly within generative models. This emerging framework moves beyond traditional indexing, mapping queries and user contexts directly to document or item identifiers. In this talk, I will provide an in-depth overview of generative retrieval with recent key advancements. These methods are bridging the gap between search and recommendation by leveraging semantic representations that capture both content-based and collaborative signals. Building on recent studies, I will outline the core concepts, methodological innovations, and practical applications driving this field, and conclude by discussing open challenges and promising directions for future research.
-  - **Bio**: Zhaochun Ren is an Associate Professor at Leiden University, the Netherlands. He is interested in information retrieval and natural language processing, with an emphasis on generative information retrieval and recommender systems. He aims to develop intelligent agents that can address complex user requests and solve core challenges in NLP and IR towards that goal. His research has been recognized with multiple awards at RecSys, SIGIR, WSDM, EMNLP, and CIKM. Prior to joining Leiden, he was a Professor at Shandong University and a Research Scientist at JD.com.
+<h3>Section 2: Invited Keynotes</h3>
 
-**Section 2.2: Invited Keynote 2 by Prof. Tong (Rocky) Chen (45 mins)**
+<div class="speaker-card">
+  <img src="{{ '/assets/img/speakers/zhaochun-ren.jpg' | relative_url }}" alt="Zhaochun Ren" class="speaker-photo">
 
-**Section 2.3: Invited Keynote 3: Training Adaptive Search Agents for Dynamic Environments by Dr. Andrew Drozdov (45 mins)**
-  - **Abstract**: This talk covers three directions toward adaptive search agents: using reinforcement learning to train large agents for slow, deliberative search, using reinforcement learning to train smaller models for fast search with parallel test-time compute, and evaluating agents in dynamic environments where questions and their answers change over time. The broader goal is to ask what the future of search should look like from both system design and evaluation perspectives, as search evolves from retrieving static results to powering interactive systems that increasingly rely on richer representations of fresh information, user context, and personalized information needs.
-  - **Bio**: Andrew Drozdov is a Senior Research Scientist at Databricks, where he works on language-model-powered search, ranking, and grounded reasoning for knowledge-intensive tasks. His research spans information retrieval, efficient and scalable AI, and reinforcement learning, with a focus on modern search systems for both humans and agents. He received his PhD from the University of Massachusetts Amherst and his Master’s degree from New York University.
+  <div class="speaker-info">
+    <div class="talk-label">Invited Keynote 1 · 45 mins</div>
+    <h3>Generative retrieval: from search to recommendation</h3>
+    <p class="speaker-name">Prof. Zhaochun Ren</p>
+    <p class="affiliation">Leiden University, the Netherlands</p>
 
-**Section 3: Discussion with SIGIR'26 Authors (40 mins)**
+```
+<p><strong>Abstract:</strong> Generative retrieval is reshaping search and recommendation by embedding corpus knowledge directly within generative models. This emerging framework moves beyond traditional indexing, mapping queries and user contexts directly to document or item identifiers. In this talk, I will provide an in-depth overview of generative retrieval with recent key advancements. These methods are bridging the gap between search and recommendation by leveraging semantic representations that capture both content-based and collaborative signals. Building on recent studies, I will outline the core concepts, methodological innovations, and practical applications driving this field, and conclude by discussing open challenges and promising directions for future research.</p>
 
-**Section 4: Wrap-up and Closing Remarks (10 mins)**
+<p><strong>Bio:</strong> Zhaochun Ren is an Associate Professor at Leiden University, the Netherlands. He is interested in information retrieval and natural language processing, with an emphasis on generative information retrieval and recommender systems. He aims to develop intelligent agents that can address complex user requests and solve core challenges in NLP and IR towards that goal. His research has been recognized with multiple awards at RecSys, SIGIR, WSDM, EMNLP, and CIKM. Prior to joining Leiden, he was a Professor at Shandong University and a Research Scientist at JD.com.</p>
+```
 
+  </div>
+</div>
 
-<hr style="border-top: 1px solid #eee; margin: 40px 0 20px 0;">
+<div class="speaker-card">
+  <img src="{{ '/assets/img/speakers/rocky-chen.jpg' | relative_url }}" alt="Tong Rocky Chen" class="speaker-photo">
 
+  <div class="speaker-info">
+    <div class="talk-label">Invited Keynote 2 · 45 mins</div>
+    <h3>Invited Keynote 2</h3>
+    <p class="speaker-name">Prof. Tong (Rocky) Chen</p>
+    <p class="affiliation">Affiliation TBA</p>
+
+```
+<p><strong>Abstract:</strong> TBA.</p>
+<p><strong>Bio:</strong> TBA.</p>
+```
+
+  </div>
+</div>
+
+<div class="speaker-card">
+  <img src="{{ '/assets/img/speakers/andrew-drozdov.jpg' | relative_url }}" alt="Andrew Drozdov" class="speaker-photo">
+
+  <div class="speaker-info">
+    <div class="talk-label">Invited Keynote 3 · 45 mins</div>
+    <h3>Training Adaptive Search Agents for Dynamic Environments</h3>
+    <p class="speaker-name">Dr. Andrew Drozdov</p>
+    <p class="affiliation">Databricks</p>
+
+```
+<p><strong>Abstract:</strong> This talk covers three directions toward adaptive search agents: using reinforcement learning to train large agents for slow, deliberative search, using reinforcement learning to train smaller models for fast search with parallel test-time compute, and evaluating agents in dynamic environments where questions and their answers change over time. The broader goal is to ask what the future of search should look like from both system design and evaluation perspectives, as search evolves from retrieving static results to powering interactive systems that increasingly rely on richer representations of fresh information, user context, and personalized information needs.</p>
+
+<p><strong>Bio:</strong> Andrew Drozdov is a Senior Research Scientist at Databricks, where he works on language-model-powered search, ranking, and grounded reasoning for knowledge-intensive tasks. His research spans information retrieval, efficient and scalable AI, and reinforcement learning, with a focus on modern search systems for both humans and agents. He received his PhD from the University of Massachusetts Amherst and his Master’s degree from New York University.</p>
+```
+
+  </div>
+</div>
+
+<div class="program-item">
+  <h3>Section 3: Discussion with SIGIR'26 Authors</h3>
+  <div class="program-meta">40 mins</div>
+</div>
+
+<div class="program-item">
+  <h3>Section 4: Wrap-up and Closing Remarks</h3>
+  <div class="program-meta">10 mins</div>
+</div>
+
+<hr class="section-divider">
 
 ## Workshop Chairs
 
-<div style="text-align: justify;">
-<ul style="list-style-type: disc; padding-left: 20px;">
+<div>
+<ul class="chairs-list">
 
 <li><strong>Prof. Hongzhi Yin</strong>, full professor and ARC Future Fellow at the University of Queensland.</li>
 
-<br>
-<li><strong>Dr. Wei Yuan</strong>, postdoc at The University of Queensland. </li>
-<br>
+<li><strong>Dr. Wei Yuan</strong>, postdoc at The University of Queensland.</li>
+
 <li><strong>Mr. Yi Zhang</strong>, PhD student at Anhui University.</li>
 
-<br>
 <li><strong>Dr. Joel Mackenzie</strong>, senior lecturer and DECRA Fellow at The University of Queensland.</li>
 
-<br>
 <li><strong>Prof. Quoc Viet Hung Nguyen</strong>, associate Professor at Griffith University.</li>
 
-<br>
 <li><strong>Prof. Wayne Xin Zhao</strong>, full professor at Renmin University of China.</li>
 
-<br>
 <li><strong>Prof. Yong Li</strong>, full professor at Tsinghua University.</li>
 
-<br>
 <li><strong>Prof. Lina Yao</strong>, full professor at UNSW.</li>
 
 </ul>
 </div>
 
-<hr style="border-top: 1px solid #eee; margin: 40px 0 20px 0;">
+<hr class="section-divider">
 
-[//]: # (## Our Papers on Graph Condensation)
-
-[//]: # ()
-[//]: # (<ul style="list-style: none; padding-left: 0; font-size: smaller;">)
-
-[//]: # (    <li style="margin-bottom: 5px;">)
-
-[//]: # (        <strong><a href="https://arxiv.org/abs/2401.11720v2">Graph Condensation: A Survey</a></strong> )
-
-[//]: # (        <a href="https://github.com/XYGaoG/Graph-Condensation-Papers">📖</a><br>)
-
-[//]: # (        <em>Transactions on Knowledge and Data Engineering &#40;TKDE&#41;, 2025</em><br>)
-
-[//]: # (        Xinyi Gao, Junliang Yu, Tong Chen, Guanhua Ye, Wentao Zhang, Hongzhi Yin)
-
-[//]: # (    </li>)
-
-[//]: # ()
-[//]: # (    <li style="margin-bottom: 5px;">)
-
-[//]: # (        <strong><a href="https://arxiv.org/abs/2405.13707">Rethinking and Accelerating Graph Condensation: A Training-Free Approach with Class Partition</a></strong><br>)
-
-[//]: # (        <em>ACM Web Conference &#40;WWW&#41;, 2025</em><br>)
-
-[//]: # (        Xinyi Gao, Guanhua Ye, Tong Chen, Wentao Zhang, Junliang Yu, Hongzhi Yin)
-
-[//]: # (    </li>)
-
-[//]: # ()
-[//]: # (    <li style="margin-bottom: 5px;">)
-
-[//]: # (        <strong><a href="https://arxiv.org/abs/2405.17003">Graph Condensation for Open-World Graph Learning</a></strong><br>)
-
-[//]: # (        <em>ACM SIGKDD Conference on Knowledge Discovery and Data Mining &#40;SIGKDD&#41;, 2024</em><br>)
-
-[//]: # (        Xinyi Gao, Tong Chen, Wentao Zhang, Yayong Li, Xiangguo Sun, Hongzhi Yin)
-
-[//]: # (    </li>)
-
-[//]: # ()
-[//]: # (    <li style="margin-bottom: 5px;">)
-
-[//]: # (        <strong><a href="https://arxiv.org/abs/2307.15967">Graph Condensation for Inductive Node Representation Learning</a></strong><br>)
-
-[//]: # (        <em>IEEE International Conference on Data Engineering &#40;ICDE&#41;, 2024</em><br>)
-
-[//]: # (        Xinyi Gao, Tong Chen, Yilong Zang, Wentao Zhang, Quoc Viet Hung Nguyen, Kai Zheng, Hongzhi Yin)
-
-[//]: # (    </li>)
-
-[//]: # ()
-[//]: # (    <li style="margin-bottom: 5px;">)
-
-[//]: # (        <strong><a href="https://arxiv.org/abs/2412.16250">Training-free Heterogeneous Graph Condensation via Data Selection</a></strong><br>)
-
-[//]: # (        <em>IEEE International Conference on Data Engineering &#40;ICDE&#41;, 2025</em><br>)
-
-[//]: # (        Yuxuan Liang, Wentao Zhang, Xinyi Gao, Ling Yang, Chong Chen, Hongzhi Yin, Yunhai Tong, Bin Cui)
-
-[//]: # (    </li>)
-
-[//]: # ()
-[//]: # (    <li style="margin-bottom: 5px;">)
-
-[//]: # (        <strong><a href="https://arxiv.org/abs/2406.13200">RobGC: Towards Robust Graph Condensation</a></strong><br>)
-
-[//]: # (        Xinyi Gao, Hongzhi Yin, Tong Chen, Guanhua Ye, Wentao Zhang, Bin Cui)
-
-[//]: # (    </li>)
-
-[//]: # (</ul>)
-
+[//]: # "## Our Papers on Graph Condensation"
+[//]: #
+[//]: # "<ul style=\"list-style: none; padding-left: 0; font-size: smaller;\">"
+[//]: # "    <li style=\"margin-bottom: 5px;\">"
+[//]: # "        <strong><a href=\"https://arxiv.org/abs/2401.11720v2\">Graph Condensation: A Survey</a></strong> "
+[//]: # "        <a href=\"https://github.com/XYGaoG/Graph-Condensation-Papers\">📖</a><br>"
+[//]: # "        <em>Transactions on Knowledge and Data Engineering (TKDE), 2025</em><br>"
+[//]: # "        Xinyi Gao, Junliang Yu, Tong Chen, Guanhua Ye, Wentao Zhang, Hongzhi Yin"
+[//]: # "    </li>"
+[//]: #
+[//]: # "    <li style=\"margin-bottom: 5px;\">"
+[//]: # "        <strong><a href=\"https://arxiv.org/abs/2405.13707\">Rethinking and Accelerating Graph Condensation: A Training-Free Approach with Class Partition</a></strong><br>"
+[//]: # "        <em>ACM Web Conference (WWW), 2025</em><br>"
+[//]: # "        Xinyi Gao, Guanhua Ye, Tong Chen, Wentao Zhang, Junliang Yu, Hongzhi Yin"
+[//]: # "    </li>"
+[//]: #
+[//]: # "    <li style=\"margin-bottom: 5px;\">"
+[//]: # "        <strong><a href=\"https://arxiv.org/abs/2405.17003\">Graph Condensation for Open-World Graph Learning</a></strong><br>"
+[//]: # "        <em>ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD), 2024</em><br>"
+[//]: # "        Xinyi Gao, Tong Chen, Wentao Zhang, Yayong Li, Xiangguo Sun, Hongzhi Yin"
+[//]: # "    </li>"
+[//]: #
+[//]: # "    <li style=\"margin-bottom: 5px;\">"
+[//]: # "        <strong><a href=\"https://arxiv.org/abs/2307.15967\">Graph Condensation for Inductive Node Representation Learning</a></strong><br>"
+[//]: # "        <em>IEEE International Conference on Data Engineering (ICDE), 2024</em><br>"
+[//]: # "        Xinyi Gao, Tong Chen, Yilong Zang, Wentao Zhang, Quoc Viet Hung Nguyen, Kai Zheng, Hongzhi Yin"
+[//]: # "    </li>"
+[//]: #
+[//]: # "    <li style=\"margin-bottom: 5px;\">"
+[//]: # "        <strong><a href=\"https://arxiv.org/abs/2412.16250\">Training-free Heterogeneous Graph Condensation via Data Selection</a></strong><br>"
+[//]: # "        <em>IEEE International Conference on Data Engineering (ICDE), 2025</em><br>"
+[//]: # "        Yuxuan Liang, Wentao Zhang, Xinyi Gao, Ling Yang, Chong Chen, Hongzhi Yin, Yunhai Tong, Bin Cui"
+[//]: # "    </li>"
+[//]: #
+[//]: # "    <li style=\"margin-bottom: 5px;\">"
+[//]: # "        <strong><a href=\"https://arxiv.org/abs/2406.13200\">RobGC: Towards Robust Graph Condensation</a></strong><br>"
+[//]: # "        Xinyi Gao, Hongzhi Yin, Tong Chen, Guanhua Ye, Wentao Zhang, Bin Cui"
+[//]: # "    </li>"
+[//]: # "</ul>"
