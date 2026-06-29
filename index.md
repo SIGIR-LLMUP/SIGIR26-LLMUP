@@ -126,6 +126,19 @@ description: "SIGIR 2026 Workshop"
     margin-bottom: 12px;
   }
 
+  .program-section-title {
+  padding: 18px 22px;
+  margin: 18px 0 10px 0;
+  border-left: 4px solid #2f6f9f;
+  background: #f8fafc;
+  border-radius: 10px;
+}
+
+.program-section-title h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
   @media (max-width: 700px) {
     .speaker-card {
       flex-direction: column;
@@ -180,7 +193,10 @@ The main focus of the workshop is to provide a venue for researchers and practit
   <div class="program-meta">30 mins</div>
 </div>
 
-<h3>Section 2: Invited Keynotes</h3>
+<!-- <h3>Section 2: Invited Keynotes</h3> -->
+<div class="program-section-title">
+  <h3>Section 2: Invited Keynotes</h3>
+</div>
 
 <div class="speaker-card">
   <img src="{{ '/assets/css/zhaochun.jpeg' | relative_url }}" alt="Zhaochun Ren" class="speaker-photo">
