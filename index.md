@@ -183,7 +183,7 @@ The main focus of the workshop is to provide a venue for researchers and practit
 <h3>Section 2: Invited Keynotes</h3>
 
 <div class="speaker-card">
-  <img src="{{ '/assets/img/speakers/zhaochun-ren.jpg' | relative_url }}" alt="Zhaochun Ren" class="speaker-photo">
+  <img src="{{ '/assets/css/zhaochun.jpeg' | relative_url }}" alt="Zhaochun Ren" class="speaker-photo">
 
   <div class="speaker-info">
     <div class="talk-label">Invited Keynote 1 · 45 mins</div>
@@ -218,7 +218,7 @@ The main focus of the workshop is to provide a venue for researchers and practit
 </div>
 
 <div class="speaker-card">
-  <img src="{{ '/assets/img/speakers/andrew-drozdov.jpg' | relative_url }}" alt="Andrew Drozdov" class="speaker-photo">
+  <img src="{{ '/assets/css/andrew.jpeg' | relative_url }}" alt="Andrew Drozdov" class="speaker-photo">
 
   <div class="speaker-info">
     <div class="talk-label">Invited Keynote 3 · 45 mins</div>
