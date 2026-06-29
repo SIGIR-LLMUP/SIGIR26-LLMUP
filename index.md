@@ -207,11 +207,11 @@ The main focus of the workshop is to provide a venue for researchers and practit
     <p class="speaker-name">Prof. Zhaochun Ren</p>
     <p class="affiliation">Leiden University, the Netherlands</p>
 
-```
+
 <p><strong>Abstract:</strong> Generative retrieval is reshaping search and recommendation by embedding corpus knowledge directly within generative models. This emerging framework moves beyond traditional indexing, mapping queries and user contexts directly to document or item identifiers. In this talk, I will provide an in-depth overview of generative retrieval with recent key advancements. These methods are bridging the gap between search and recommendation by leveraging semantic representations that capture both content-based and collaborative signals. Building on recent studies, I will outline the core concepts, methodological innovations, and practical applications driving this field, and conclude by discussing open challenges and promising directions for future research.</p>
 
 <p><strong>Bio:</strong> Zhaochun Ren is an Associate Professor at Leiden University, the Netherlands. He is interested in information retrieval and natural language processing, with an emphasis on generative information retrieval and recommender systems. He aims to develop intelligent agents that can address complex user requests and solve core challenges in NLP and IR towards that goal. His research has been recognized with multiple awards at RecSys, SIGIR, WSDM, EMNLP, and CIKM. Prior to joining Leiden, he was a Professor at Shandong University and a Research Scientist at JD.com.</p>
-```
+
 
   </div>
 </div>
@@ -225,10 +225,10 @@ The main focus of the workshop is to provide a venue for researchers and practit
     <p class="speaker-name">Prof. Tong (Rocky) Chen</p>
     <p class="affiliation">Affiliation TBA</p>
 
-```
+
 <p><strong>Abstract:</strong> TBA.</p>
 <p><strong>Bio:</strong> TBA.</p>
-```
+
 
   </div>
 </div>
@@ -242,11 +242,11 @@ The main focus of the workshop is to provide a venue for researchers and practit
     <p class="speaker-name">Dr. Andrew Drozdov</p>
     <p class="affiliation">Databricks</p>
 
-```
+
 <p><strong>Abstract:</strong> This talk covers three directions toward adaptive search agents: using reinforcement learning to train large agents for slow, deliberative search, using reinforcement learning to train smaller models for fast search with parallel test-time compute, and evaluating agents in dynamic environments where questions and their answers change over time. The broader goal is to ask what the future of search should look like from both system design and evaluation perspectives, as search evolves from retrieving static results to powering interactive systems that increasingly rely on richer representations of fresh information, user context, and personalized information needs.</p>
 
 <p><strong>Bio:</strong> Andrew Drozdov is a Senior Research Scientist at Databricks, where he works on language-model-powered search, ranking, and grounded reasoning for knowledge-intensive tasks. His research spans information retrieval, efficient and scalable AI, and reinforcement learning, with a focus on modern search systems for both humans and agents. He received his PhD from the University of Massachusetts Amherst and his Master’s degree from New York University.</p>
-```
+
 
   </div>
 </div>
