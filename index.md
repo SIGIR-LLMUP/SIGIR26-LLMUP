@@ -217,17 +217,17 @@ The main focus of the workshop is to provide a venue for researchers and practit
 </div>
 
 <div class="speaker-card">
-  <img src="{{ '/assets/img/speakers/rocky-chen.jpg' | relative_url }}" alt="Tong Rocky Chen" class="speaker-photo">
+  <img src="{{ '/assets/img/speakers/RockyChen' | relative_url }}" alt="Tong Rocky Chen" class="speaker-photo">
 
   <div class="speaker-info">
     <div class="talk-label">Invited Keynote 2 · 45 mins</div>
-    <h3>Invited Keynote 2</h3>
+    <h3>Do LLMs Introduce New Vulnerabilities to Recommender Systems?</h3>
     <p class="speaker-name">Prof. Tong (Rocky) Chen</p>
     <p class="affiliation">The University of Queensland</p>
 
 
-<p><strong>Abstract:</strong> TBA.</p>
-<p><strong>Bio:</strong> TBA.</p>
+<p><strong>Abstract:</strong> Sequential recommendation is a fundamental task in recommender systems, which aims to estimate a ranked item list based on each user’s interaction history. Recently, large language model-powered sequential recommender systems (LLM-SRSs) have demonstrated remarkable performance by leveraging their natural strength in modelling interacted items as a sequence of textual descriptions. However, this paradigm also introduces new security vulnerabilities, particularly text-level manipulations, rendering them appealing targets for promotion attacks that purposely boost the ranking of specific target items. In this talk, I will present our recent work that investigates such new vulnerabilities by probing a mechanism for promotion attacks on LLM-SRSs. Distinct from existing studies that mostly rely on an unrealistic assumption of access to either the victim model or system prompt, our attack can operate in a real-world setting where both the system prompt and victim model are unknown. Our findings reveal critical security risks in modern LLM-SRSs even when both prompts and models are protected, and highlight the need for more robust defensive means. Following this study, I will further present a research agenda to discuss the technical landscape of secure recommender systems, and share my thoughts on the roadmap towards future research in this area.</p>
+<p><strong>Bio:</strong> Rocky (Tong) Chen is currently an Associate Professor with the Data Science Discipline at The University of Queensland. Rocky’s main research interests include recommender systems, LLM agents, graph and sequential data mining, and social media content moderation. To date, Rocky and his team have published 90+ peer-reviewed papers in the most prestigious, CORE A*/A-ranked conferences and journals like KDD, SIGIR, WWW, ICDE, ICML, ICLR, IEEE TKDE, and ACM TOIS. Rocky is an area chair of the KDD, WWW, and SIGIR conferences, and an associate editor of the Neural Networks Journal. His research contributions have received several recognitions, including the 2025 Brisbane Lord Mayor’s Trailblazer Award, 2024 CIKM Best Student Paper Award, and the 2023 ARC Discovery Early Career Researcher Award.</p>
 
 
   </div>
