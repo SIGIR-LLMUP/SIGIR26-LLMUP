@@ -217,7 +217,7 @@ The main focus of the workshop is to provide a venue for researchers and practit
 </div>
 
 <div class="speaker-card">
-  <img src="{{ '/assets/img/speakers/RockyChen' | relative_url }}" alt="Tong Rocky Chen" class="speaker-photo">
+  <img src="{{ '/assets/css/RockyChen.jpeg' | relative_url }}" alt="Tong Rocky Chen" class="speaker-photo">
 
   <div class="speaker-info">
     <div class="talk-label">Invited Keynote 2 · 45 mins</div>
