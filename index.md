@@ -174,7 +174,7 @@ The LLM-UP workshop adopts an interactive structure featuring lightning talks, p
 
 ## Time Schedule
 
-**Workshop Date**: Friday 24 July 2026
+**Workshop Date**: Friday 24 July 2026 (9:00-12:30)
 
 **Venue**: TBA
 
@@ -190,7 +190,7 @@ The main focus of the workshop is to provide a venue for researchers and practit
 
 <div class="program-item">
   <h3>Section 1: Welcome and Opening Remarks</h3>
-  <div class="program-meta">30 mins</div>
+  <div class="program-meta">9:00 - 9:10 (10 mins)</div>
 </div>
 
 <!-- <h3>Section 2: Invited Keynotes</h3> -->
@@ -202,7 +202,7 @@ The main focus of the workshop is to provide a venue for researchers and practit
   <img src="{{ '/assets/css/zhaochun.jpeg' | relative_url }}" alt="Zhaochun Ren" class="speaker-photo">
 
   <div class="speaker-info">
-    <div class="talk-label">Invited Keynote 1 · 45 mins</div>
+    <div class="talk-label">Invited Keynote 1 · 9:10-9:55 (45 mins)</div>
     <h3>Generative retrieval: from search to recommendation</h3>
     <p class="speaker-name">Prof. Zhaochun Ren</p>
     <p class="affiliation">Leiden University, the Netherlands</p>
@@ -220,7 +220,7 @@ The main focus of the workshop is to provide a venue for researchers and practit
   <img src="{{ '/assets/css/RockyChen.jpeg' | relative_url }}" alt="Zhaochun Ren" class="speaker-photo">
 
   <div class="speaker-info">
-    <div class="talk-label">Invited Keynote 2 · 45 mins</div>
+    <div class="talk-label">Invited Keynote 2 · 9:55-10:40 (45 mins)</div>
     <h3>Do LLMs Introduce New Vulnerabilities to Recommender Systems?</h3>
     <p class="speaker-name">Prof. Tong (Rocky) Chen</p>
     <p class="affiliation">The University of Queensland</p>
@@ -237,7 +237,7 @@ The main focus of the workshop is to provide a venue for researchers and practit
   <img src="{{ '/assets/css/andrew.jpeg' | relative_url }}" alt="Andrew Drozdov" class="speaker-photo">
 
   <div class="speaker-info">
-    <div class="talk-label">Invited Keynote 3 · 45 mins</div>
+    <div class="talk-label">Invited Keynote 3 · 11:00-11:45 (45 mins)</div>
     <h3>Training Adaptive Search Agents for Dynamic Environments</h3>
     <p class="speaker-name">Dr. Andrew Drozdov</p>
     <p class="affiliation">Databricks</p>
@@ -253,12 +253,12 @@ The main focus of the workshop is to provide a venue for researchers and practit
 
 <div class="program-item">
   <h3>Section 3: Discussion with SIGIR'26 Authors</h3>
-  <div class="program-meta">40 mins</div>
+  <div class="program-meta">11:45-12:25 (40 mins)</div>
 </div>
 
 <div class="program-item">
   <h3>Section 4: Wrap-up and Closing Remarks</h3>
-  <div class="program-meta">10 mins</div>
+  <div class="program-meta">12:25-12:30 (5 mins)</div>
 </div>
 
 <hr class="section-divider">
