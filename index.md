@@ -233,6 +233,14 @@ The main focus of the workshop is to provide a venue for researchers and practit
   </div>
 </div>
 
+<div class="program-break">
+  <div class="break-time">10:40-11:00</div>
+  <div class="break-content">
+    <div class="talk-label">Coffee Break · 20 mins</div>
+    <h3>Coffee Time</h3>
+  </div>
+</div>
+
 <div class="speaker-card">
   <img src="{{ '/assets/css/andrew.jpeg' | relative_url }}" alt="Andrew Drozdov" class="speaker-photo">
 
