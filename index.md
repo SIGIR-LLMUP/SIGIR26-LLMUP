@@ -139,6 +139,33 @@ description: "SIGIR 2026 Workshop"
   font-size: 1.1rem;
 }
 
+.discussion-list {
+  margin-top: 14px;
+  display: grid;
+  gap: 10px;
+}
+
+.discussion-paper {
+  display: grid;
+  grid-template-columns: auto auto 1fr;
+  gap: 6px;
+  line-height: 1.45;
+}
+
+.paper-index {
+  color: #777;
+  font-weight: 600;
+}
+
+.paper-author {
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.paper-title {
+  color: #333;
+}
+
   @media (max-width: 700px) {
     .speaker-card {
       flex-direction: column;
@@ -265,6 +292,29 @@ The main focus of the workshop is to provide a venue for researchers and practit
 <div class="program-item">
   <h3>Section 3: Discussion with SIGIR'26 Authors</h3>
   <div class="program-meta">11:45-12:25 (40 mins)</div>
+
+  <div class="discussion-list">
+    <div class="discussion-paper">
+      <span class="paper-index">[1]</span>
+      <span class="paper-author">Xinyue Wanyan:</span>
+      <span class="paper-title">Task-Aware Automated User Profile Generation for Recommendation Simulation Using Large Language Models</span>
+    </div>
+    <div class="discussion-paper">
+      <span class="paper-index">[2]</span>
+      <span class="paper-author">Xinyu Lin:</span>
+      <span class="paper-title">Verifiable Reasoning for LLM-based Generative Recommendation</span>
+    </div>
+    <div class="discussion-paper">
+      <span class="paper-index">[3]</span>
+      <span class="paper-author">Yu Zhang:</span>
+      <span class="paper-title">DIAURec: Dual-Intent Space Representation Optimization for Recommendation</span>
+    </div>
+    <div class="discussion-paper">
+      <span class="paper-index">[4]</span>
+      <span class="paper-author">Yi Zhang:</span>
+      <span class="paper-title">ProMax: Exploring the Potential of LLM-derived Profiles with Distribution Shaping for Recommender Systems</span>
+    </div>
+  </div>
 </div>
 
 <div class="program-item">
