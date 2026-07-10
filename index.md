@@ -203,7 +203,7 @@ The LLM-UP workshop adopts an interactive structure featuring lightning talks, p
 
 **Workshop Date**: Friday 24 July 2026 (9:00-12:30)
 
-**Venue**: TBA
+**Venue**: Room 112
 
 <hr class="section-divider">
 
