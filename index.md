@@ -309,11 +309,11 @@ The main focus of the workshop is to provide a venue for researchers and practit
       <span class="paper-author">Yu Zhang</span>
       <span class="paper-title">DIAURec: Dual-Intent Space Representation Optimization for Recommendation</span>
     </div>
-    <div class="discussion-paper">
+    <!-- <div class="discussion-paper">
       <span class="paper-index">[4]</span>
       <span class="paper-author">Yi Zhang</span>
       <span class="paper-title">ProMax: Exploring the Potential of LLM-derived Profiles with Distribution Shaping for Recommender Systems</span>
-    </div>
+    </div> -->
   </div>
 </div>
 
